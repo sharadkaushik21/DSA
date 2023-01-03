@@ -1,9 +1,9 @@
 package recursion;
 
+//6th question
 public class OddNumbers {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 		odd(10);
 	}
@@ -14,9 +14,13 @@ public class OddNumbers {
 			System.out.print(1+" ");
 		return;  }
 		
-		odd(n-1);
+		//Descending order
 		if(n%2==1)
 			System.out.print(n+" ");
+		odd(n-1);
+		//ascending order
+//		if(n%2==1)
+//			System.out.print(n+" ");
 		
 	}
 
